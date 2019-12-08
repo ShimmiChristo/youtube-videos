@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="list-container">
+      <div class="form-container">
+        <h1>to do example</h1>
+        <form class="app">
+          <input type="text" data-input="to do example" class="inputBox" />
+          <button data-button="to do example" class="submitButton">
+            Submit
+          </button>
+        </form>
+      </div>
+      <ul data-list="to do example" class="toDoList">
+        <li>
+          <div class="delete">&times;</div>
+          example
+        </li>
+      </ul>
+    </div>
+
+    <div class="list-container">
+      <div class="form-container">
+        <h1>grocery list</h1>
+        <form class="app">
+          <input type="text" data-input="grocery list" class="inputBox" />
+          <button data-button="grocery list" class="submitButton">
+            Submit
+          </button>
+        </form>
+      </div>
+      <ul data-list="grocery list" class="toDoList">
+        <li>
+          example
+          <div class="delete">&times;</div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- <script src="list_v1.js"></script> -->
+    <!-- <script src="list_v2.js"></script> -->
+    <script src="list_v3.js"></script>
+  </body>
+</html>

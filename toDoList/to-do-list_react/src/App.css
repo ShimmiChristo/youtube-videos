@@ -1,0 +1,123 @@
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+/* 
+  white - FFFCF9
+  black - 333
+  gray - D3D3D3
+  salmon - FF8C69
+  blue - 0074D9
+  yellow - E9D758
+  green - 297373
+  red - FF6F69
+*/
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  font-size: 10px;
+  font-family: Helvetica, sans-serif;
+  color: #333;
+}
+button {
+  border: none;
+  background-color: #d3d3d3;
+  border: 1px solid #333;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+button:focus {
+  outline-style: none;
+  box-shadow: none;
+  border-color: transparent;
+  border: #333 solid 1px;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+}
+button:hover {
+  background-color: #e0e0e0;
+}
+input {
+  color: #333;
+  border: 1px solid #333;
+  border-radius: 4px;
+  padding: 1rem 2rem;
+}
+input:focus {
+  outline-style: none;
+  box-shadow: none;
+  border-color: transparent;
+  border: #333 solid 1px;
+  border-radius: 4px;
+}
+.list-container {
+  font-size: 1.8rem;
+  width: 400px;
+  margin: 30px;
+  border: 1px solid;
+  display: inline-block;
+  vertical-align: top;
+}
+.form-container {
+  /*overflow: auto; /*! need this to take account for the h1 margin */
+  padding: 0 20px;
+}
+.list-container h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  padding: 0 10px;
+}
+.list-container form {
+  padding: 10px;
+}
+ul {
+  list-style-type: none;
+  padding: 10px 30px;
+}
+ul li {
+  border-bottom: 1px solid #333;
+  padding: 10px 45px 10px 5px;
+  position: relative;
+  margin-bottom: -1px;
+  overflow-wrap: break-word;
+}
+.delete {
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 5px;
+  width: 45px;
+  height: 100%;
+  transition: 0.1s;
+}
+.delete:hover {
+  background: #ff6f69;
+}
